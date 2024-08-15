@@ -1,0 +1,15 @@
+[package]
+name = "sample-brained"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.38"
+hound = "3.5.1"
+rand = "0.8.5"
+rodio = "0.19.0"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.122"
+walkdir = "2.5.0"
